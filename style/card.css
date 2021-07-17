@@ -1,0 +1,30 @@
+.card{
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    height: 350px;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    transition: all ease 0.5s;
+    box-shadow: 1px 1px 10px white;
+}
+
+@media only screen and (max-width: 656px) {
+    .card{
+        margin-right: 0;
+    }
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card .card-body{
+    height: 70%;
+    padding: 1rem;
+    overflow-y: hidden;
+}
+
+.card .card-footer{
+    padding: 1rem;
+}
